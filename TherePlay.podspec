@@ -6,4 +6,5 @@ Pod::Spec.new do |s|
   s.author       = { "litl, LLC" => "cbridges@litl.com" }
   s.source       = { :git => "https://github.com/litl/TherePlay.git" }
   s.source_files = "TherePlay/*.{h,m}"
+  s.requires_arc = false
 end
